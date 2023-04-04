@@ -45,7 +45,7 @@ fusion$Source <- rep(c("X_test", "X_train"), c(nrow(X_test), nrow(X_train)))
 #Check the number of X_test and X_train
 table(fusion$Source)
 
-#Create a data frame specified by subject
+#Create a data frame specified by subject X_train and X_test
 num_cols <- names(fusion)[1:561]
 
 # Calculate the mean by each subject
