@@ -1,5 +1,4 @@
 
-getwd()
 setwd("C:/Users/Louis Hognon/Documents/FormationR/Getting_and_cleaning_data")
 #
 
